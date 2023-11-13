@@ -20,7 +20,7 @@ typedef struct s_print
 
 
 int _printf(const char *format, ...);
-
+int _putchar(char c);
 int _print_char(va_list args);
 int _print_string(va_list args);
 int handler(char c, va_list args);
