@@ -28,8 +28,6 @@ int _print_string(va_list args)
 	int length = 0;
 
 	str = va_arg(args, char*);
-	if (str == NULL)
-		str = "(null)";
 	while (str[length] != '\0')
 		length++;
 	return (write(1, str, length));
