@@ -20,9 +20,15 @@ typedef struct s_print
 
 
 int _printf(const char *format, ...);
+int _strlen(char *str);
+int _strlenc(const char *str);
+int print_37(void);
+int print_dec(va_list args);
+int print_int(va_list args);
 
-int _print_char(va_list args);
-int _print_string(va_list args);
+
+int printf_char(va_list args);
+int printf_string(va_list args);
 int handler(char c, va_list args);
 
 #endif
