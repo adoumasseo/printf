@@ -21,6 +21,7 @@ typedef struct format
 } match;
 
 int _printf(const char *format, ...);
+
 int _strlen(char *str);
 int _strlenc(const char *str);
 int print_37(void);
@@ -42,5 +43,6 @@ int _putchar(char c);
 
 int printf_char(va_list args);
 int printf_string(va_list args);
+
 
 #endif
