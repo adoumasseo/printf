@@ -10,14 +10,16 @@
 
 int handler(char c, va_list args)
 {
-	print_t sp[2] = {
+	print_t sp[4] = {
 		{"c", _print_char},
-		{"s", _print_string}
+		{"s", _print_string},
+		{"d", _print_int},
+		{"i", _print_int}
 	};
 	int i = 0;
 	int n;
 
-	while (i < 2)
+	while (i < 4)
 	{
 		if (sp[i].str[0] == c)
 		{

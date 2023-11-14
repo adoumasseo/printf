@@ -34,3 +34,22 @@ int _print_string(va_list args)
 		length++;
 	return (write(1, str, length));
 }
+
+/**
+ * _print_int - a fct that print an int
+ * @args: va_list arg of printf
+ *
+ * Return: the number of char print or -1 on fails
+ */
+int _print_int(va_list args)
+{
+	int n, l = 0;
+	char *str;
+
+	n = va_arg(args, int);
+	str = print_number(n);
+	while (str[l] != '\0')
+		l++;
+	return (write(1, str, l));
+
+}

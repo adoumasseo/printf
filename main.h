@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define BUFF_SIZE_D 12
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +25,10 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int _print_char(va_list args);
 int _print_string(va_list args);
+int _print_int(va_list args);
+char *print_number(int n);
+char *_str_rev(char *);
+void _free_m(char *);
 int handler(char c, va_list args);
 
 #endif
