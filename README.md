@@ -11,5 +11,6 @@ The big print gives and the small print takes away
 Sarcasm is lost in print
 Print some money and give it to us for the rain forests
 The negative is the equivalent of the composer's score, and the print the performance
+It's depressing when you're still around and your albums are out of print
 Print is the sharpest and the strongest weapon of our party
 The flood of print has turned reading into a process of gulping rather than savoring
