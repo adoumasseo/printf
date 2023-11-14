@@ -8,3 +8,4 @@ Nothing in fine print is ever good news
 My weakness is wearing too much leopard print
 How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
 Print is the sharpest and the strongest weapon of our party
+The flood of print has turned reading into a process of gulping rather than savoring
