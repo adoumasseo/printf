@@ -10,5 +10,6 @@ How is the world ruled and led to war? Diplomats lie to journalists and believe 
 The big print gives and the small print takes away
 Sarcasm is lost in print
 Print some money and give it to us for the rain forests
+The negative is the equivalent of the composer's score, and the print the performance
 Print is the sharpest and the strongest weapon of our party
 The flood of print has turned reading into a process of gulping rather than savoring
