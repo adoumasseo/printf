@@ -9,7 +9,7 @@ int print_HEX_extra(unsigned int num)
 	int i;
 	int *array;
 	int counter = 0;
-	unsigned int temp = num;
+	num = unsigned int tem
 
 	while (num / 16 != 0)
 	{
@@ -21,8 +21,8 @@ int print_HEX_extra(unsigned int num)
 	
 	for (i = 0; i < counter; i++)
 	{
-		array[i] = temp % 16;
-		temp /= 16;
+		array[i] = tem % 16;
+		tem /= 16;
 	}
 	for (i = counter - 1; i >= 0; i--)
 	{
