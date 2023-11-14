@@ -6,3 +6,5 @@ With a face like mine, I do better in print.
 What one has not experienced, one will never understand in print
 Nothing in fine print is ever good news
 My weakness is wearing too much leopard print
+How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
+Print is the sharpest and the strongest weapon of our party
