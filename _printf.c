@@ -10,7 +10,7 @@
 int _printf(const char *format, ...)
 {
 	match p[] = {
-		{"%s", print_string}, {"%c", print_char},
+		{"%s", printf_string}, {"%c", printf_char},
 		{"%%", print_37},
 		{"%i", print_int}, {"%d", print_dec}, {"%r", print_revs},
 		{"%R", print_rot13}, {"%b", print_bin},
