@@ -7,10 +7,12 @@
  * Return: counter.
  */
 int print_HEX_extra(unsigned int num)
+{
 	int i;
 	int *array;
 	int counter = 0;
-	num = unsigned int tem
+
+	num = unsigned int tem;
 
 	while (num / 16 != 0)
 	{
@@ -19,7 +21,7 @@ int print_HEX_extra(unsigned int num)
 	}
 	counter++;
 	array = malloc(counter * sizeof(int));
-	
+
 	for (i = 0; i < counter; i++)
 	{
 		array[i] = tem % 16;
