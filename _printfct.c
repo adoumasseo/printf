@@ -1,36 +1,47 @@
 #include "main.h"
 
 /**
- * _print_char - a function that print a char
+ * printf_char - a function that print a char
  * @args: va_list argument of printf function
  *
  * Return: the number of char print
  */
 
-int _print_char(va_list args)
+int printf_char(va_list args)
 {
-	char c;
+	char str;
 
-	c = va_arg(args, int);
-	return (write(1, &c, 1));
+	str = va_arg(args, int);
+	_putchar(str);
+	return (1);
 }
 
 /**
- * _print_string - a function that print a string
+ * printf_string - a function that print a string
  * @args: va_list arg of _printf function
  *
  * Return: the number of char print or -1 on fails
  */
 
-int _print_string(va_list args)
+int printf_string(va_list args)
 {
 	char *str;
-	int length = 0;
+	int i, length;
 
-	str = va_arg(args, char*);
+	str = va_arg(args, char *);
 	if (str == NULL)
+	{
 		str = "(null)";
-	while (str[length] != '\0')
-		length++;
-	return (write(1, str, length));
+		length = _strlen(str);
+		for (i = 0; i < length; i++)
+			_putchar(str[i]);
+		return (length);
+	}
+	else
+	{
+		length = _strlen(str);
+		for (i = 0; i < length; i++)
+			_putchar(str[i]);
+		return (length);
+	}
 }
