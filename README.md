@@ -4,3 +4,5 @@ This is the Team PrintF Project.
 Education is when you read the fine print. Experience is what you get if you don't.
 With a face like mine, I do better in print.
 What one has not experienced, one will never understand in print
+Nothing in fine print is ever good news
+
